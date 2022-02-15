@@ -1,5 +1,6 @@
 {
   "production_season_id": 4321,
   "title": "Test Production 2",
-  "key_art": "/uploads/red_heart.png"
+  "key_art": "/uploads/red_heart.png",
+  "description": "<strong>This is the description of the production</strong>. <em>It can have basic HTML formatting</em>. <span style=\"text-decoration: underline;\">This is the description of the production</span>. <a href=\"https://google.com\" title=\"\" target=\"_blank\">It can have basic HTML formatting</a>. This is the description of the production. It can have basic HTML formatting. It can even have images:<br><br><img src=\"/uploads/red_heart.png\">"
 }
