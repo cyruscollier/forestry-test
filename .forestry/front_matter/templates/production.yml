@@ -22,3 +22,5 @@ fields:
   config:
     maxSize: 0.5
   label: Key Art
+pages:
+- productions/test-production-1.md
