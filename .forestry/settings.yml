@@ -9,7 +9,7 @@ sections:
   label: Productions
   create: documents
   match: "**/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
   templates:
   - production
 upload_dir: uploads

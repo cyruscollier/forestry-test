@@ -24,3 +24,4 @@ fields:
   label: Key Art
 pages:
 - productions/test-production-1.md
+- productions/test-production-2.json
