@@ -7,8 +7,10 @@ sections:
 - type: directory
   path: productions
   label: Productions
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - production
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
