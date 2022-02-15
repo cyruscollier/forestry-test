@@ -22,6 +22,17 @@ fields:
   config:
     maxSize: 0.5
   label: Key Art
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: html
+    min: 100
+    max: 500
+  label: Description
 pages:
 - productions/test-production-1.md
 - productions/test-production-2.json
