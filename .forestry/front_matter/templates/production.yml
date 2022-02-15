@@ -1,4 +1,24 @@
 ---
 label: Production
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: production_season_id
+  type: number
+  label: Production Season Id
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: key_art
+  type: file
+  config:
+    maxSize: 0.5
+  label: Key Art
