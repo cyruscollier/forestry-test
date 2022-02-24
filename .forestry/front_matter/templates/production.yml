@@ -7,6 +7,12 @@ fields:
   config:
     required: true
   label: Title
+- name: accent_color
+  type: color
+  label: Accent Color
+  config:
+    required: false
+    color_format: RGB
 - name: production_season_id
   type: number
   label: Production Season Id
@@ -33,12 +39,6 @@ fields:
     min: 100
     max: 500
   label: Description
-- name: accent_color
-  type: color
-  label: Accent Color
-  config:
-    required: false
-    color_format: RGB
 pages:
 - productions/test-production-1.md
 - productions/test-production-2.json
