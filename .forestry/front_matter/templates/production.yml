@@ -33,6 +33,12 @@ fields:
     min: 100
     max: 500
   label: Description
+- name: accent_color
+  type: color
+  label: Accent Color
+  config:
+    required: false
+    color_format: RGB
 pages:
 - productions/test-production-1.md
 - productions/test-production-2.json
